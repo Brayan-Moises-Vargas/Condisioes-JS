@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    'aside'
+    'section'
+    'header';
+    height: 100vh;
+    grid-template-rows: 30%;
+}
+
+
+
+/*Primer ejercicio*/
+aside{
+    grid-area: aside;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+aside img{
+    width: 300px;
+    height: 200px;
+    padding-top: 0.2re;
+    margin-top: 0.3rem;
+}
+/*Segundo ejercicio*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    grid-area: section;
+    background-color: aqua;
+    grid-gap: 20px;
+}
+section img{
+    margin-top: 1rem;
+}
+section input{
+    margin-bottom: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultado{
+    border-radius: 10%;
+    border: 5px solid red;
+    width: 80px;
+    height: 60px;
+}
+/*tercer ejercicio*/
+header{
+    grid-area: header;
+    background-color: blanchedalmond;
+   /* background-image: url(https://cdn.xxl.thumbs.canstockphoto.es/trasfondo-de-matriz-de-c%C3%B3digo-binario-verde-stock-de-ilustraci%C3%B3n_csp53448165.jpg);
+ */   
+}
+header h1{
+    display: flex;
+    justify-content: center;
+}
+.input-header{
+    display: flex;
+    justify-content: center;
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: blanchedalmond;
+}
+#probando{
+    border-radius: 10%;
+    border: 5px solid red;
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+select{
+    margin: 0.4rem;
+    height: 30px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
